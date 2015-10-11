@@ -58,6 +58,13 @@ p{
 	transition: all .31415s ease 0s;
 }
 
+i.fa{
+	padding-left: 10px;
+	padding-right: 10px;
+	color: white;
+	transition: all .31415s ease 0s;
+}
+
 .navbar a:hover{
 	color: #00C5DB;
 }
