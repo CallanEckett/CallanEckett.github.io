@@ -47,7 +47,8 @@ h2{
 }
 
 i.fa{
-	padding: 25px, 25px;
+	padding-left: 25px;
+	padding-right: 25px;
 	color: white;
 	transition: all .31415s ease 0s;
 }
