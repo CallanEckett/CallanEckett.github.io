@@ -43,7 +43,7 @@ h1{
 	padding-bottom: 25px;
 }
 
-h2{
+p{
 	font-family: 'Alegreya', serif;
 	font-weight: 400;
 	font-size: 16px
@@ -67,4 +67,14 @@ i.fa{
 
 .navbar a:hover{
 	color: #00C5DB;
+}
+
+.content a:link, .content: a:visited{
+	text-decoration: underline;
+	font-family: 'Alegreya', serif;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 20px;
+	margin: 0, 0, 0, 0;
+	color: white;
 }
