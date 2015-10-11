@@ -32,13 +32,15 @@ h1{
 	font-family: 'Alegreya', serif;
 	font-weight: 700;
 	font-size: 58px;
+	line-height: 58px;
 	margin: 0, 0, 0, 500px;
 }
 
-h2, h3{
+h2{
 	font-family: 'Alegreya', serif;
 	font-weight: 400;
 	font-size: 23px;
+	line-height: 23px;
 	margin: 0, 0, 23px, 0;
 }
 
