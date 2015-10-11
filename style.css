@@ -30,8 +30,8 @@ html{
 
 .navbar{
 	position: absolute;
-	top: 2px;
-	left: 2px;
+	top: 15px;
+	left: 0;
 }
 
 h1{
