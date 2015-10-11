@@ -1,91 +1,72 @@
-/* Font used for all text in the container */
-@import url(http://fonts.googleapis.com/css?family=Slabo+27px);
-
-/* Reset margins and fill entire space */
-html, body, .container {
-	height: 100%;
-	width: 100%;
+/* Background pattern from subtlepatterns.com */
+* {
 	margin: 0;
+	padding: 0;
+}
+html{
+	background-image: url(footer_lodyas.png);
+	background-repeat: repeat;
 }
 
-body {
-	/* Background image for the page */
-	background: #254463 url('background.jpeg') no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	
-	/* Page color and font */
-	color: #FFF;
-	font-family: 'Slabo 27px', serif;
-}
-
-/* Contains the main content, limits its width, and centers the content */
-.container {
-	margin: auto;
-	max-width: 66%;
-	
+.outer{
+	position: absolute;
+	display: table;
 	height: 100%;
 	width: 100%;
-	
+}
+
+.middle{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.container{
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
 	text-align: center;
-	display: table;
 }
 
-/* Another container for adding a darkened background and making it fill the entire height */
-.container .inner {
-	height: 100%;
-	background: rgba(0, 0, 0, 0.6);
-	display: table-row;  
-	text-shadow: 0px 0px 12px rgba(0, 0, 0, .2);
+.about{
+	text-align: left;
 }
 
-/* Final container for containing the page content, applies padding to the content */
-.container .inner .content {
-	margin: 0 48px;
-	padding: 0 32px 32px 24px;
-}
-
-/* A bit of resizing of the main content items */
 h1 {
-	font-size: 50px;
-}
+    font-family: 'Alegreya', serif;
+    font-weight: 700;
+    line-height: 58px;
+    font-size: 58px;
+    margin: 0 0 43px 0;
+    }
 h2 {
-	font-size: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 23px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0 0 23px 0;
+    }
+p, a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 23px;
+    margin: 0 0 23px 0;
 }
 
-/* Styling for social icons */
-i.fa {
-	padding: 0 8px;
-	color: #FFF;
-	transition: all 0.3s ease 0s;
-	-webkit-transition: all 0.3s ease 0s;
+a{
+	text-decoration: underline;
+	color: white;
+	font-weight: 700;
+	transition: .31415s;
 }
-i.fa:hover {
+
+a:hover{
 	color: #00C5DB;
 }
 
-/* Make the site look better and fit the page on mobile */
-@media only screen and (max-width: 900px) {
-	h1 {
-		font-size: 2em;
-	}
-	h2 {
-		font-size: 1.2em;
-	}
-	p {
-		font-size: 1em;
-	}
-	.container {
-		max-width: 90%;
-	}
-	.container .inner .content {
-		margin: 0 16px;
-		padding: 0;
-		min-width: 320;
-	}
-	i.fa {
-		font-size: 2.5em;
-	}
+a i{
+	padding-left: 10px;
+	padding-right: 10px;
 }
