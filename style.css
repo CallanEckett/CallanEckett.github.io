@@ -3,11 +3,6 @@
 	padding: 0;
 }
 
-html{
-	background-image: url(dark_embrodary.png);
-	background-repeat: repeat;
-}
-
 .container{
 	position: absolute;
 	display: table;
@@ -29,21 +24,18 @@ html{
 }
 
 h1{
-	font-family: 'Arial', sans-serif;
 	font-weight: 700;
 	font-size: 30px;
 	margin: 0, 0, 23px, 0;
 }
 
 h2{
-	font-family: 'Arial', sans-serif;
 	font-weight: 700;
 	font-size: 30px;
 	margin: 0, 0, 23px, 0;
 }
 
 h3{
-	font-family: 'Arial', sans-serif;
 	font-weight: 700;
 	font-size: 30px;
 	margin: 0, 0, 23px, 0;
