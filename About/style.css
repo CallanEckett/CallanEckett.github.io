@@ -48,7 +48,8 @@ p{
 	font-weight: 400;
 	font-size: 16px
 	line-height: 16px;
-	margin: 0, 0, 0, 0;
+	margin: 0, 0, 0, 0;]
+	padding-bottom: 20px;
 }
 
 .navbar a{
@@ -75,7 +76,6 @@ i.fa{
 	font-weight: 700;
 	font-size: 20px;
 	line-height: 20px;
-	margin-top: 50px;
 	color: white;
 }
 
@@ -85,6 +85,5 @@ i.fa{
 	font-weight: 700;
 	font-size: 20px;
 	line-height: 20px;
-	margin-top: 50px;
 	color: #00C5DB;
 }
