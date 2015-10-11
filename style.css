@@ -21,7 +21,7 @@ html{
 }
 
 .content{
-	width: 50%;
+	width: 70%;
 	margin-left: auto;
 	margin-right: auto;
 	color: white;
@@ -49,18 +49,12 @@ h3{
 	margin: 0, 0, 23px, 0;
 }
 
-a{
-	text-decoration: underline;
+i.fa{
+	padding: 0, 10px;
 	color: white;
-	font-weight: 700;
-	transition: .31415s;
+	transition: all .31415s ease 0s;
 }
 
-a:hover{
+i.fa:hover{
 	color: #6AA427;
-}
-
-a i{
-	padding-left: 10px;
-	padding-right: 10px;
 }
