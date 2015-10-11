@@ -23,10 +23,14 @@ body {
 
 /* Contains the main content, limits its width, and centers the content */
 .container {
-	width: 50%;
-	margin-left: auto;
-	margin-right: auto;
+	margin: auto;
+	max-width: 66%;
+	
+	height: 100%;
+	width: 100%;
+	
 	text-align: center;
+	display: table;
 }
 
 /* Another container for adding a darkened background and making it fill the entire height */
