@@ -32,7 +32,6 @@ h1{
 	font-family: 'Alegreya', serif;
 	font-weight: 700;
 	font-size: 58px;
-	line-height: 58px;
 	margin: 0, 0, 43px, 0;
 }
 
@@ -40,8 +39,7 @@ h2, h3{
 	font-family: 'Alegreya', serif;
 	font-weight: 400;
 	font-size: 28px;
-	line-height: 23px;
-	margin: 0, 0, 21px, 0;
+	margin: 0, 0, 200px, 0;
 }
 
 i.fa{
