@@ -75,7 +75,7 @@ i.fa{
 	font-weight: 700;
 	font-size: 20px;
 	line-height: 20px;
-	padding-top: 50px;
+	margin-top: 50px;
 	color: white;
 }
 
@@ -85,6 +85,6 @@ i.fa{
 	font-weight: 700;
 	font-size: 20px;
 	line-height: 20px;
-	padding-top: 50px;
+	margin-top: 50px;
 	color: #00C5DB;
 }
