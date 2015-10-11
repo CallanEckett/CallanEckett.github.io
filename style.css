@@ -47,12 +47,12 @@ h2{
 }
 
 i.fa{
-	padding-left: 25px;
-	padding-right: 25px;
+	padding-left: 10px;
+	padding-right: 10px;
 	color: white;
 	transition: all .31415s ease 0s;
 }
 
 i.fa:hover{
-	color: #6AA427;
+	color: #00C5DB;
 }
