@@ -69,7 +69,7 @@ i.fa{
 	color: #00C5DB;
 }
 
-.content a:link, .content: a:visited{
+i.fa:link,{
 	text-decoration: underline;
 	font-family: 'Alegreya', serif;
 	font-weight: 400;
