@@ -30,7 +30,7 @@ html{
 
 .navbar{
 	position: absolute;
-	top: 0;
+	top: 6px;
 	left: 0;
 	color: white;
 	
@@ -39,7 +39,7 @@ html{
 .navbar a:link{
 	text-decoration: none;
 	font-family: 'Alegreya', serif;
-	font-weight: 400;
+	font-weight: 700;
 	font-size: 16px;
 	line-height: 16px;
 	color: white;
@@ -48,7 +48,7 @@ html{
 .navbar a:visited{
 	text-decoration: none;
 	font-family: 'Alegreya', serif;
-	font-weight: 400;
+	font-weight: 700;
 	font-size: 16px;
 	line-height: 16px;
 	color: white;
@@ -57,7 +57,7 @@ html{
 .navbar a:hover{
 	text-decoration: none;
 	font-family: 'Alegreya', serif;
-	font-weight: 400;
+	font-weight: 700;
 	font-size: 16px;
 	line-height: 16px;
 	color: #00C5DB;
