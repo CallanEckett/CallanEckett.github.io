@@ -69,12 +69,12 @@ i.fa{
 	color: #00C5DB;
 }
 
-.inner a{
+.email a:link{
 	text-decoration: underline;
 	font-family: 'Alegreya', serif;
 	font-weight: 400;
 	font-size: 20px;
 	line-height: 20px;
-	margin: 0, 0, 0, 0;
+	padding-top: 15px;
 	color: white;
 }
