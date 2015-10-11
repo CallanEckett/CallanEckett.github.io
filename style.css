@@ -29,23 +29,16 @@ html{
 }
 
 h1{
-	font-family: 'Arial', sans-serif;
+	font-family: 'Alegreya', serif;
 	font-weight: 700;
-	font-size: 30px;
+	font-size: 58px;
 	margin: 0, 0, 23px, 0;
 }
 
-h2{
-	font-family: 'Arial', sans-serif;
-	font-weight: 700;
-	font-size: 30px;
-	margin: 0, 0, 23px, 0;
-}
-
-h3{
-	font-family: 'Arial', sans-serif;
-	font-weight: 700;
-	font-size: 30px;
+h2, h3{
+	font-family: 'Alegreya', serif;
+	font-weight: 400;
+	font-size: 28px;
 	margin: 0, 0, 23px, 0;
 }
 
