@@ -3,22 +3,28 @@
 	padding: 0;
 }
 
-.container{
-	position: absolute;
-	display: table;
-	height: 100%;
-	width: 100%;
+html{
+	background-image: url(dark_embrodary.png);
+	background-repeat: repeat;
 }
 
-.inner{
-	display: table-cell;
-	vertical-align: middle;
+h1{
+	font-family: 'Arial', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	margin: 0, 0, 23px, 0;
 }
 
-.content{
-	width: 50%;
-	margin-left: auto;
-	margin-right: auto;
-	color: white;
-	text-align: center;
+h2{
+	font-family: 'Arial', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	margin: 0, 0, 23px, 0;
+}
+
+h3{
+	font-family: 'Arial', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	margin: 0, 0, 23px, 0;
 }
