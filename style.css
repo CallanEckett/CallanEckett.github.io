@@ -30,7 +30,7 @@ html{
 
 .navbar{
 	position: absolute;
-	top: 0;
+	top: 3px;
 	left: 0;
 }
 
@@ -53,8 +53,8 @@ h2{
 }
 
 .navbar a{
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 3px;
+	padding-right: 3px;
 	color: white;
 	transition: all .31415s ease 0s;
 }
