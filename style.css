@@ -28,12 +28,11 @@ html{
 	text-align: center;
 }
 
-.navbar{
+.navbar a{
 	position: absolute;
 	top: 0;
 	left: 0;
 	color: white;
-	
 }
 
 h1{
