@@ -30,7 +30,7 @@ html{
 
 .navbar{
 	position: absolute;
-	top: 0;
+	top: 9px;
 	left: 0;
 }
 
@@ -58,6 +58,6 @@ p{
 	transition: all .31415s ease 0s;
 }
 
-.navbar a:hover, i.fa:hover{
+.navbar a:hover{
 	color: #00C5DB;
 }
