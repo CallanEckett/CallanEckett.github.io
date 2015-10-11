@@ -8,6 +8,13 @@ html{
 	background-repeat: repeat;
 }
 
+.container{
+	position: absolute;
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+
 h1{
 	font-family: 'Arial', sans-serif;
 	font-weight: 700;
