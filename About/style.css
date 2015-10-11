@@ -31,7 +31,7 @@ html{
 .navbar{
 	position: absolute;
 	top: 9px;
-	left: 2px;
+	left: 0;
 }
 
 h1{
@@ -54,6 +54,13 @@ p{
 .navbar a{
 	padding-left: 1px;
 	padding-right: 1px;
+	color: white;
+	transition: all .31415s ease 0s;
+}
+
+i.fa{
+	padding-left: 10px;
+	padding-right: 10px;
 	color: white;
 	transition: all .31415s ease 0s;
 }
