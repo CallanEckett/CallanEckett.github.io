@@ -4,7 +4,8 @@
 }
 
 html{
-	background-image: url(dark.png);
+	background-image: url(footer_lodyas.png);
+	background-repeat: repeat;
 }
 
 .container{
