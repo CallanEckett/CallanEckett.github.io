@@ -15,6 +15,11 @@ html{
 	width: 100%;
 }
 
+.inner{
+	display: table-cell;
+	vertical-align: middle;
+}
+
 h1{
 	font-family: 'Arial', sans-serif;
 	font-weight: 700;
