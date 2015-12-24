@@ -32,22 +32,19 @@ html {
 }
 
 .projects-section {
-    height: 100%;
-    padding-top: 100px;
+    padding: 100px 0;
     text-align: center;
     background: #eee;
 }
 
 .about-section {
-    height: 100%;
-    padding-top: 100px;
+    padding: 100px 0;
     text-align: center;
     background: #fff;
 }
 
-.contact-section {
-    height: 100%;
-    padding-top: 100px;
+.findme-section {
+    padding: 100px 0;
     text-align: center;
     background: #eee;
 }
@@ -59,6 +56,7 @@ html {
     border: 0px;
     margin-bottom: 0;
     padding-bottom: 0;
+    padding: 0 50px;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -69,10 +67,21 @@ h1, h2, h3, h4, h5, h6{
 h1{
     font-size: 48px;
     margin: 0;
+    padding-bottom: 50px;
+}
+
+h2{
+    font-size: 63px;
+    padding-bottom: 100px;
 }
 
 h3{
     font-size: 24px;
+}
+
+h4{
+    font-size: 16px;
+    padding-bottom: 10px;
 }
 
 .jumbotron p{
@@ -90,4 +99,36 @@ h3{
 
 .jumbotron h1, .jumbotron .h1{
     margin-bottom: 100px;
+}
+
+.breadcrumb{
+    background-color: transparent;
+    margin-bottom: 10px;
+}
+
+.about-section h1{
+    padding-bottom: 50px;
+}
+
+.panel-body{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: #444;
+}
+
+.panel-body img{
+    vertical-align: bottom;
+}
+
+.table{
+    margin-bottom: 0;
+}
+
+.findme-section a{
+    color: #333;
+    padding: 0 15px;
+}
+
+.findme-section a:hover{
+    color: #337AB7;
 }
