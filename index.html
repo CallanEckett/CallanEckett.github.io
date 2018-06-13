@@ -1,340 +1,386 @@
 <!DOCTYPE html>
 <html lang="en">
-
+    
     <head>
-
-        <meta charset="utf-8">
-
+        
+        <meta charset="uft-8">
+        
         <!-- Page Title -->
         <title>Callan Eckett</title>
-
+        
         <!-- Core Stylesheets -->
-        <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+        <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
         <link rel="stylesheet" href="css/style.css" type="text/css" />
-        <!-- Plugin Stylesheets -->
-        <link rel="stylesheet" href="css/owl.carousel.css" type="text/css" />
-        <link rel="stylesheet" href="css/owl.theme.css" type="text/css" />
-        <link rel="stylesheet" href="css/owl.transitions.css" type="text/css" />
         <!-- Font Awesome -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous" />
         <!-- Google Fonts -->
         <link href='https://fonts.googleapis.com/css?family=Open+Sans:800' rel='stylesheet' type='text/css' />
         <link href='https://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css' />
-
+        
     </head>
-
-    <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
-        <!-- Navigation -->
-        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    
+    <body id="page-top" data-spy="scroll" data-target=".fixed-top" data-offset="50">
+        
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #222222;">
             <div class="container">
-                <div class="navbar-header page-scroll">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand page-scroll" href="#page-top">Callan Eckett</a>
-                </div>
-
-                <div class="collapse navbar-collapse navbar-ex1-collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="active">
-                            <a class="page-scroll" href="#page-top">Home</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="#projects">Projects</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="#about">About</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="#findme">Find Me Online</a>
-                        </li>
-                    </ul>
-                </div>
+            <a class="navbar-brand page-scroll" href="#page-top">Callan Eckett</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav nav-pills">
+                    <li class="navbar-item">
+                        <a class="nav-link active page-scroll" href="#page-top">Home</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="nav-link page-scroll" href="#about">About</a>
+                    </li>
+                    
+                    <li class="navbar-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="" role="button" aria-haspopup="true" aria-expanded="false">Projects</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item page-scroll" href="#projects">All Projects</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item page-scroll" href="#keyboards">Mechanical Keyboards</a>
+                            <a class="dropdown-item page-scroll" href="#graphics">Graphics Design and Modelling</a>
+                            <a class="dropdown-item page-scroll disabled" href="">Programming</a>
+                            <a class="dropdown-item page-scroll" href="#websites">Websites</a>
+                        </div>
+                    </li>
+                    
+                    <li class="navbar-item">
+                        <a class="nav-link page-scroll" href="#findme">Find Me Online</a>
+                    </li>
+                </ul>
             </div>
-        </nav> <!-- Navigation End -->
-
+            </div>
+        </nav>
+        
         <!-- Intro Section -->
-        <section id="intro" class="intro-section">
-            <div class="jumbotron">
-                <div class="row">
-                    
-                    <div class="container">
-                        <div class="row text-center">
-                            <div class="col-lg-12">
-                                <h2>Hello, I’m Callan Eckett</h2>
-                            </div>
-                        </div>   
-                    </div>
-                    
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                        <div class="thumbnail">
-                            <i class="fa fa-desktop fa-4x"></i>
-                            <div class="caption">
-                                <h3>Computer Enthusiast</h3>
-                                <p>
-                                    From constructing full working systems, to tinkering & modding different components; I’ve been a fan of computers from a young age. My current system I’m proud with, but always upgrading!
-                                </p>
-                                <p>
-                                    <a href="#about" class="btn btn-primary page-scroll" role="button">Read More</a>
-                                </p>
+        <section id="intro" class="section intro-section text-center">
+
+            <div class="jumbotron jumbotron-fluid">
+                <h1>Hello, I'm Callan Eckett.</h1>
+                
+                <div class="container-fluid">
+                
+                    <div class="row">
+
+                        <!-- Mechanical Keyboard Enthusiast Column -->
+                        <div class="col col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                            <div class="card" id="borderless-card">
+                                <i class="card-img-top far fa-keyboard fa-5x"></i>
+                                <div class="card-body">
+                                    <h3 class="card-title">Keyboard Enthusiast</h3>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    </p>
+                                    <a href="#keyboards" class="btn btn-primary page-scroll" role="button">Read More</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                        <div class="thumbnail">
-                            <i class="fa fa-pencil-square-o fa-4x"></i>
-                            <div class="caption">
-                                <h3>Graphics Designer</h3>
-                                <p>
-                                    Whilst not a fully-fledged graphics designer, I’ve had some valuable experience with applications such as illustrator & photoshop; along with pixel art in krita. I even have a couple of projects under my belt.
-                                </p>
-                                <p>
-                                    <a href="#about" class="btn btn-primary page-scroll" role="button">Read More</a>
-                                </p>
+
+                        <!-- Graphics Designer Column -->
+                        <div class="col col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                            <div class="card" id="borderless-card">
+                                <i class="card-img-top fas fa-edit fa-5x"></i>
+                                <div class="card-body">
+                                    <h3 class="card-title">Graphics Designer/Modeler</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    </p>
+                                    <a href="#graphics" class="btn btn-primary page-scroll" role="button">Read More</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                        <div class="thumbnail">
-                            <i class="fa fa-keyboard-o fa-4x"></i>
-                            <div class="caption">
-                                <h3>Programmer</h3>
-                                <p>
-                                    I’ve been programming for as long as I can remember. Starting from C#, making insignificant terraria mods, and building up to today using python to make small, enjoyable games.
-                                </p>
-                                <p>
-                                    <a href="#about" class="btn btn-primary page-scroll" role="button">Read More</a>
-                                </p>
+
+                        <!-- Programmer Column -->        
+                        <div class="col col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                            <div class="card" id="borderless-card">
+                                <i class="card-img-top fas fa-laptop fa-5x"></i>
+                                <div class="card-body">
+                                    <h3 class="card-title">Programmer</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    </p>
+                                    <a href="#programs" class="btn btn-primary page-scroll" role="button">Read More</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                        <div class="thumbnail">
-                            <i class="fa fa-paint-brush fa-4x"></i>
-                            <div class="caption">
-                                <h3>Website Creator</h3>
-                                <p>
-                                    My work on websites is limited, however I’ve been really enjoying building up my knowledge of the topic. Hopefully I can further build my abilities, and progress to bigger things sometime in the future!
-                                </p>
-                                <p>
-                                    <a href="#about" class="btn btn-primary page-scroll" role="button">Read More</a>
-                                </p>
+
+                        <!-- Website Column -->        
+                        <div class="col col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                            <div class="card" id="borderless-card">
+                                <i class="card-img-top fas fa-paint-brush fa-5x"></i>
+                                <div class="card-body">
+                                    <h3 class="card-title">Website Creator</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    </p>
+                                    <a href="#websites" class="btn btn-primary page-scroll" role="button">Read More</a>
+                                </div>
                             </div>
                         </div>
+
                     </div>
-                    
                 </div>
             </div>
-        </section> <!-- Intro End -->
-
-        <!-- Projects Section -->
-        <section id="projects" class="projects-section">
-            <div class="container">
-                <div class="row">
-                
-                <div class="row text-center">
-                    <div class="col-lg-12">
-                        <h1>My Projects</h1>
-                    </div>
-                </div>
-                
-                <div class="col-lg-4 text-left">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h3 class="panel-title">Random Title</h3>
-                        </div>
-                        <div class="panel-body">
-                            Random content
-                        </div>
-                        <div class="panel-footer">
-                            Random footer
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-lg-4">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h3 class="panel-title">Random Title</h3>
-                        </div>
-                        <div class="panel-body">
-                            <a href="bfunkt/bfunkt.html" class="btn btn-success page-scroll" role="button">Click to go to bfunkt page</a>
-                        </div>
-                        <div class="panel-footer">
-                            Random footer
-                        </div>
-                    </div>
-                </div>
-                    
-                <div class="col-lg-4">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h3 class="panel-title">Random Title</h3>
-                        </div>
-                        <div class="panel-body">
-                            Random content
-                        </div>
-                        <div class="panel-footer">
-                            Random footer
-                        </div>
-                    </div>
-                </div>
-                    
-                </div>
-            </div>
-                    
-        </section> <!-- Projects End -->
-
+            
+            
+            
+        </section>
+        
         <!-- About Section -->
-        <section id="about" class="about-section">
+        <section id="about" class="section about-section text-center">
+            
             <div class="container">
-                <div class="row">
-                    
-                    <div class="container">
-                        <div class="row text-center">
-                            <div class="col-lg-12">
-                                <h1>About Me</h1>
-                            </div>
-                        </div>   
-                    </div>
-                
-                <div class="col-lg-8">
-                    <div class="well">
-                            <p>
-                            Through-out the majority of my life I’ve always been fascinated by computers. I have fond memories of the moments that have shaped my understanding & knowledge of computer systems today. Despite the might of my current system, it all started off on a thrown together family PC that someone had made for us. It came loaded with Windows 98, and an array of (semi) useful programs. We had no internet back then, so the only entertainment I had was either CD-ROM games that came from newspapers, or a pirated copy of Age of Empires; which I still don’t know how I obtained to this day… The next momentous occasion was me getting access to the internet. Unlike you may think, I actually spent the next few years of my life relatively un-interested by our computer. I used it for school work, or just to mess around on flash games; but nothing really serious. I had just gotten a Playstation at the time, so was much more interested in that!
-                            </p>
-                            <p>
-                            At around 12 years old, I saved up some money; and purchased an Xbox 360. I thought it was the best thing ever, and it turned out to be; as it was the thing that drew me back from the lure of consoles. When Minecraft came out on Xbox, it didn’t have creative mode. But I wanted to build a castle. After searching around for a while I found a modding tool that allowed you to copy your game save from your console and edit your inventory on your PC. Even-though this particular exploit was fixed in a patch a few weeks after, all my friends thought I was a god. I pondered to myself “how hard can it be to make something like that”, and started trying to learn Java; which quickly came to an end. I told one of my friends that I would make him an Xbox point’s generator. He paid me in advance. I took the money, and never could figure out where to even start.
-                            </p>
-                            <p>
-                            It was around the same time that I met my good friend Monty, who introduced me to steam. It was a game on steam that first inspired me to start programming, Terraria. Terraria has had a massive impact on my programming to this day. Since the Minecraft incident I had become interested in modding games, and when I saw a YouTube video on how to mod Terraria; I swiftly bought it on steam. Creating mods on Terraria required C#, which was overall pretty easy to pick up the basics of; however I never really delved much deeper than that. During this period of my life was also when I first began getting into graphic design, mainly because I had to make sprites for my mods. I carried on making Terraria mods for a while, until at school I was introduced to the language we’d be using for our GCSE computing course in September. Python was the language of choice for my particular school, and it has remained my main language up to this date.
-                            </p>
-                            <p>
-                            Time passed, and it was now the summer of 2013. I had become adept at using python, and decided it would be a great idea to share my knowledge with other people. This was when I started to make YouTube videos, a python tutorial series to be precise. It was in this same month that I had finished collecting the money I needed in order to buy myself a PC. I had been doing odd jobs since the summer of 2012, and along with birthday/Christmas money; I finally had enough to buy a decent system! Back then I didn’t know a lot about computers, I just went of what popular YouTubers at the time said and hoped for the best. My parts arrived towards the end of the summer holiday, and I was eager to put them together. Unfortunately I didn’t really know what I was doing, and rushed into things which led to me putting way to much thermal material onto the processor when installing the cooler. It oozed from the contact point, and covered the area around the CPU socket with paste. To make things worse I then tried to forcefully pull the processor from the socket with-out releasing the lever, which caused several bent pins. At this point I was worried. Searching around for what to do introduced me to isopropyl alcohol, which I ordered; and luckily I was able to clean up the CPU with it. I also used some tweezers to manipulate the bent pins back into place. So, three days after I’d started, I had finally completed my system; and it was brilliant. I could do so much more than I could on our family PC, but most importantly I could now play games!
-                            </p>
-                            <p>
-                            The end of this year was when I got my “gaming gear”, and started playing a lot more games on my new computer. It was now 2014 and despite the events of the previous year, I decided to return to my roots; and went in search of how to make Terraria mods again. It turns out that the same person who made the original tutorial series had made an updated version for the new API. So I began to watch it and take in all the facts, at the end of the video he mentioned that he had a forum full of members that could help out with any problems you were having. So I signed up, and to this day remain a loyal user. I hadn’t been programming a whole lot through-out this time, but instead remained fixed on playing games, doing little graphics projects and creating mods. It wasn’t until the middle of 2014, when I created my new YouTube channel, which literally had exactly the same content as my old one; that I actually did something different. 
-                            </p>
-                            <p>
-                            Nothing really happened between then and the summer of 2015, apart from multiple system changes; and me obtaining my GCSE results. Which leads me to where I am now, at college studying computing, maths and biology. I have decided to make an effort to improve my python programming, and have even tried to branch out into different languages. My website creating, well that’s another thing that I’m trying to gain some experience in. This in-fact is my first live website, made with bootstrap; which one of my friends suggested to me. Hopefully you enjoy the site, and please feel free to contact me if you have any questions!
-                            </p>
-                        </div>
-                    </div>
-                
-                <div class="col-lg-4">
-                    <div class="well">
-                        
-                        <h4>Computer Specifications</h4>
-                        
-                        <table class="table">
-                            <tbody>
-                                <tr>
-                                  <th>Chassis</th>
-                                    <td>Cooler Master 690 III</td>
-                                </tr>
-                                <tr>
-                                  <th>Processor</th>
-                                    <td>AMD FX6300</td>
-                                </tr>
-                                <tr>
-                                  <th>Motherboard</th>
-                                    <td>Asus M5A97 EVO R2.0</td>
-                                </tr>
-                                <tr>
-                                  <th>Graphics Card</th>
-                                    <td>Sapphire R9 290X Vapor-X</td>
-                                </tr>
-                                <tr>
-                                  <th>RAM</th>
-                                    <td>8GB Patriot Black Mamba 2133Mhz</td>
-                                </tr>
-                                <tr>
-                                  <th>Processor Cooler</th>
-                                    <td>Corsair H105 240mm Liquid Cooler</td>
-                                </tr>
-                                <tr>
-                                  <th>Primary Storage</th>
-                                    <td>120GB Kingston HyperX 3K SSD</td>
-                                </tr>
-                                <tr>
-                                  <th>Secondary Storage</th>
-                                    <td>2TB 7200RPM Seagate HDD</td>
-                                </tr>
-                                <tr>
-                                  <th>Power Supply</th>
-                                    <td>Corsair CXM750W PSU</td>
-                                </tr>
-                                <tr>
-                                  <th>Fans</th>
-                                    <td>2 x Corsair SP120 HP | 3 x AF140 AF</td>
-                                </tr>
-                                <tr>
-                                  <th>Operating System</th>
-                                    <td>Window 10 64 bit</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-                </div>
-            </div>        
-        </section>
+                <h2>About Me</h2>
 
-        <!-- Findme Section -->
-        <section id="findme" class="findme-section">
-            <div class="container">
-                <div class="row text-center">
-                    <div class="col-lg-12">
-                        <h1>Find Me Online</h1>
-                        <div class="links">
-                            <a href="http://steamcommunity.com/id/CallanEckett"><i class="fa fa-steam fa-4x"></i></a>
-                            <a href="https://github.com/CallanEckett"><i class="fa fa-github fa-4x"></i></a>
-                            <a href="https://www.youtube.com/user/PvtMongrelComputing"><i class="fa fa-youtube-play fa-4x"></i></a>
-                        </div>
-                    </div>
+                <div class="card">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </div>
             </div>
+            
         </section>
+        
+        <!-- Projects Section -->
+        <section id="projects" class="section projects-section">
+    
+            <div class="container">
+                <h2 class="text-center">Projects</h2>
+                
+                <div class="card-deck">
 
+                    <!-- Mechanical Keyboard Card -->
+                    <div class="col col-12" id="keyboards">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3 class="card-title text-center">Mechanical Keyboards</h3>
+
+                                <div class="card-deck">
+
+                                    <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4">
+                                        <div class="card">
+                                            <img class="card-img-top" src="imgs/MechanicalKeyboards/DSARoyalNavyPok3r.jpg">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Royal Navy Pok3r</h5>
+                                                <p class="card-subtitle text-muted">
+                                                    <a href="https://goo.gl/Eu3VMH">Pok3r Keyboard</a> with <a href="https://goo.gl/Afjjjj">DSA Royal Navy Keycaps</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4">
+                                        <div class="card">
+                                            <img class="card-img-top" src="imgs/MechanicalKeyboards/DuckyMiniGranite.jpg">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Ducky Mini Granite</h5>
+                                                <p class="card-subtitle text-muted">
+                                                    <a href="https://goo.gl/hz9Bdv">Ducky Mini Keyboard</a> with <a href="https://goo.gl/mtDBUo">DSA Granite Keycaps</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4">
+                                        <div class="card">
+                                            <img class="card-img-top" src="imgs/MechanicalKeyboards/EPBTDrevoGramr.jpg">
+                                            <div class="card-body">
+                                                <h5 class="card-title">EnjoyPBT Gramr</h5>
+                                                <p class="card-subtitle text-muted">
+                                                    <a href="https://goo.gl/MvUL11">Drevo Gramr Keyboard</a> with <a href="https://goo.gl/zNjpkU">EnjoyPBT Cyrillic Keycaps</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4">
+                                        <div class="card">
+                                            <img class="card-img-top" src="imgs/MechanicalKeyboards/EPBTGH60.jpg">
+                                            <div class="card-body">
+                                                <h5 class="card-title">EnjoyPBT GH60</h5>
+                                                <p class="card-subtitle text-muted">
+                                                    <a href="https://goo.gl/k4pSMD">GH60 Keyboard</a> with <a href="https://goo.gl/zNjpkU">EnjoyPBT Cyrillic Keycaps</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4">
+                                        <div class="card">
+                                            <img class="card-img-top" src="imgs/MechanicalKeyboards/Gamepad.jpg">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Custom Gamepad</h5>
+                                                <p class="card-subtitle text-muted">
+                                                    Custom Handwired Gamepad with Pro Micro
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4">
+                                        <div class="card">
+                                            <img class="card-img-top" src="imgs/MechanicalKeyboards/GranitePok3r.jpg">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Granite Pok3r</h5>
+                                                <p class="card-subtitle text-muted">
+                                                    <a href="https://goo.gl/Eu3VMH">Pok3r Keyboard</a> with <a href="https://goo.gl/mtDBUo">DSA Granite Keycaps</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Graphics Design/Modelling Card -->
+                    <div class="col col-12" id="graphics">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3 class="card-title text-center">Graphics Design/Modelling</h3>   
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Programs Card -->
+                    <div class="col col-12" id="programs">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3 class="card-title text-center">Progams <span class="badge badge-success">Coming Soon</span></h3>    
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Websites Card -->
+                    <div class="col col-12" id="websites">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3 class="card-title text-center">Websites</h3>
+
+                                <div class="card-deck">
+
+                                    <!-- countymolecatcher.co.uk -->
+                                    <div class="col col-lg-6">
+                                        <div class="card" id="borderless-card">
+                                            <img class="card-img-top" src="http://api.screenshotmachine.com/?key=eddf7e&dimension=1920x1080&url=http://www.countymolecatcher.co.uk/">
+                                            <div class="card-body text-center">
+                                                <h5 class="card-title">countymolecatcher.co.uk</h5>
+                                                <p class="card-subtitle text-muted">Hampshire Based Mole Control</p>
+                                                <a href="http://www.countymolecatcher.co.uk/" class="btn btn-primary" role="button">View Site</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- bfunkt.com -->    
+                                    <div class="col col-lg-6">
+                                        <div class="card" id="borderless-card">
+                                            <img class="card-img-top" src="http://api.screenshotmachine.com/?key=eddf7e&dimension=1920x1080&url=http://bfunkt.com/">
+                                            <div class="card-body text-center">
+                                                <h5 class="card-title text-center">bfunkt.com <span class="badge badge-info">Soon to be Released</span></h5>
+                                                <p class="card-subtitle text-muted">Hampshire Based Funk and Soul Band</p>
+                                                <a href="http://bfunkt.com/" class="btn btn-primary disabled" role="button">View Site</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+            </div>
+            </div>
+
+        </section>
+        
+        <!-- Findme Section -->
+        <section id="findme" class="section findme-section text-center">
+            
+            <div class="container">
+        
+                <h2>Find Me Online</h2>
+
+                <div class="row justify-content-center">
+                    
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                        <figure class="figure">
+                            <a class="figure-img img-fluid findme-link" href="http://steamcommunity.com/id/CallanEckett">
+                                <i class="fab fa-steam fa-5x"></i>
+                            </a>
+                            <figcaption class="figure-caption">Steam</figcaption>
+                        </figure>
+                    </div>
+                    
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                        <figure class="figure">
+                            <a class="figure-img img-fluid findme-link" href="https://github.com/CallanEckett">
+                                <i class="fab fa-github fa-5x"></i>
+                            </a>
+                            <figcaption class="figure-caption">Github</figcaption>
+                        </figure>
+                    </div>
+                    
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                        <figure class="figure">
+                            <a class="figure-img img-fluid findme-link" href="https://www.youtube.com/user/PvtMongrelComputing">
+                                <i class="fab fa-youtube fa-5x"></i>
+                            </a>
+                            <figcaption class="figure-caption">Youtube</figcaption>
+                        </figure>
+                    </div>
+                    
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                        <figure class="figure">
+                            <a class="figure-img img-fluid findme-link" href="https://www.thingiverse.com/_Mongrel/">
+                                <i class="fas fa-cube fa-5x"></i>
+                            </a>
+                            <figcaption class="figure-caption">Thingiverse</figcaption>
+                        </figure>
+                    </div>
+
+                </div>
+            
+            </div>
+        
+        </section>
+    
         <!-- jQuery -->
-        <script src="js/jquery-2.1.4.min.js"></script>
+        <script src="js/jquery-3.3.1.min.js"></script>
         <!-- Bootstrap Core JavaScript -->
         <script src="js/bootstrap.min.js"></script>
         <!-- Scrolling Nav JavaScript -->
         <script src="js/jquery.easing.min.js"></script>
         <script src="js/scrolling-nav.js"></script>
-        <!-- Owl Carousel -->
-        <script src="js/owl.carousel.js"></script>
-
+        <!-- Website JS -->
+        <script src="js/website.js"></script>
+        
     </body>
     
-    <footer>
+    <footer class="text-center">
+        
         <div class="container">
-            <div class="row text-center">
-                <ol class="breadcrumb">
-                    <li>
-                        <a class="page-scroll" href="#page-top">Home</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#projects">Projects</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ol>
-                <small>Copyright © 2015 Callan Eckett</small>
-            </div>
+            <ol class="breadcrumb justify-content-center">
+                <li class="breadcrumb-item">
+                    <a class="page-scroll" href="#page-top">Home</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a class="page-scroll" href="#about">About</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a class="page-scroll" href="#projects">Projects</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a class="page-scroll" href="#findme">Find me Online</a>
+                </li>
+            </ol>
+            <small>Copyright © 2015 Callan Eckett</small>
         </div>
+        
     </footer>
-
+    
 </html>

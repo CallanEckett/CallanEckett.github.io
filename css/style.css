@@ -1,8 +1,12 @@
 /* Functional CSS */
 
+:focus {outline:none;}
+::-moz-focus-inner {border:0;}
+
 body {
     width: 100%;
     height: 100%;
+    font-family: 'Roboto', sans-serif;
 }
 
 html {
@@ -10,14 +14,16 @@ html {
     height: 100%;
 }
 
-@media(min-width:767px) {
+@media{
     .navbar {
         padding: 20px 0;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
+        
+        min-height: 50px;
     }
-
+    
     .top-nav-collapse {
         padding: 0;
     }
@@ -25,110 +31,85 @@ html {
 
 /* Sections CSS */
 
+.section {
+    padding: 50px 0;
+}
+
 .intro-section {
-    padding-top: 91px;
-    text-align: center;
     background: #fff;
 }
 
-.projects-section {
-    padding: 100px 0;
-    text-align: center;
+.about-section {
     background: #eee;
 }
 
-.about-section {
-    padding: 100px 0;
-    text-align: center;
+.projects-section {
     background: #fff;
 }
 
 .findme-section {
-    padding: 100px 0;
-    text-align: center;
     background: #eee;
 }
 
 /* Main CSS */
 
-.thumbnail{
-    background-color: transparent;
-    border: 0px;
-    margin-bottom: 0;
-    padding-bottom: 0;
-    padding: 0 50px;
-}
-
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6 {
     color: #333;
     font-family: 'Open Sans', sans-serif;
 }
 
 h1{
-    font-size: 48px;
-    margin: 0;
-    padding-bottom: 50px;
-}
-
-h2{
     font-size: 63px;
-    padding-bottom: 100px;
+    padding: 100px 0;
 }
 
-h3{
-    font-size: 24px;
-}
-
-h4{
-    font-size: 16px;
-    padding-bottom: 10px;
-}
-
-.jumbotron p{
-    font-family: 'Roboto', sans-serif;
-    color: #444;
-    font-size: 16px;
-}
-
-.jumbotron{
-    margin-bottom: 0;
-    background-color: transparent;
-    padding-bottom: 100px;
-    padding-top: 100px;
-}
-
-.jumbotron h1, .jumbotron .h1{
-    margin-bottom: 100px;
-}
-
-.breadcrumb{
-    background-color: transparent;
-    margin-bottom: 10px;
-}
-
-.about-section h1{
+h2 {
+    font-size: 48px;
     padding-bottom: 50px;
 }
 
-.panel-body{
-    font-size: 14px;
-    font-family: 'Roboto', sans-serif;
-    color: #444;
+h3 {
+    font-size: 32px;
+    padding-bottom: 25px;
 }
 
-.panel-body img{
-    vertical-align: bottom;
+h5 {
+    font-size: 20px;
 }
 
-.table{
+.jumbotron {
     margin-bottom: 0;
+    background: transparent;
 }
 
-.findme-section a{
+#borderless-card {
+    border: transparent;
+}
+
+.card-subtitle {
+    margin-bottom: 1rem;
+}
+
+#bottom-projects-row {
+    padding-top: 30px;
+}
+
+.findme-link {
     color: #333;
-    padding: 0 15px;
 }
 
-.findme-section a:hover{
-    color: #337AB7;
+.findme-link:hover {
+    color: #007bff;
+}
+
+.breadcrumb {
+    background: transparent;
+}
+
+.card-subtitle {
+    font-size: 0.75rem;
+}
+
+.card-deck .col{
+    padding: 15px 0;
 }
