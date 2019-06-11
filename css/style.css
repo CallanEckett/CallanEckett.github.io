@@ -1,0 +1,295 @@
+/* Removing Dotted Lines in Firefox */
+
+html, body {
+    font-family: 'Raleway', sans-serif;
+}
+
+@media {
+    .navbar {
+        -webkit-transition: background .75s ease-in-out,padding .75s ease-in-out;
+        -moz-transition: background .75s ease-in-out,padding .75s ease-in-out;
+        transition: background .75s ease-in-out,padding .75s ease-in-out;
+        
+        padding: 25px 0;
+        min-height: 50px;
+        background-color: rgba(17, 17, 17, 0.4); !important;
+    }
+    
+    .top-nav-collapse {
+        -webkit-transition: background .75s ease-in-out,padding .75s ease-in-out;
+        -moz-transition: background .75s ease-in-out,padding .75s ease-in-out;
+        transition: background .75s ease-in-out,padding .75s ease-in-out;
+        
+        padding: 0;
+        background-color: #111;
+    }
+
+}
+
+@media (max-width: 1200px) {
+    .navbar {
+        background-color: rgba(17, 17, 17, 0.4); !important;
+    }
+    
+    .top-nav-collapse {
+        background-color: #111;
+    }
+    
+    .navbar-information {
+        padding-top: 15px;
+    }
+}
+
+@media (max-width: 992px) {
+}
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+/* Headers */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 700;
+}
+
+/* Page Title */
+h1 {
+    font-size: 4.5rem;
+}
+
+/* Subtitles */
+h2 {
+    font-size: 2.25rem;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+}
+
+/* Intro Card Titles */
+h3 {
+    font-size: 1.3rem;
+}   
+
+/* Footer Titles */
+h4 {
+    font-size: 0.9rem;
+}
+
+h5 {
+    font-size: 0.7rem;
+}
+
+/* Portfolio Titles */
+h6 {
+    font-size: 0.9rem;
+    margin-bottom: 0;
+}
+
+.display-3 {
+    font-weight: 700;
+}
+
+p {
+    font-size: 0.9rem;
+}
+
+/* Sections CSS */
+
+.intro-section {
+    height: 100vh;
+    padding-top: 0;
+}
+
+.bowsaw-section {
+    padding: 75px 0;
+    background: url('../imgs/BowsawLake.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.billhook-section {
+    padding: 75px 0;
+    background: url('../imgs/BillhookLake.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.rules-section {
+    padding: 75px 0;
+    background-color: #f4f4f4;
+}
+
+.facilities-section {
+    padding: 75px 0;
+    background-color: white;
+}
+
+.calendar-section {
+    padding: 75px 0;
+    background-color: #f4f4f4;
+}
+
+.results-section {
+    padding: 75px 0;
+    background-color: white;
+}
+
+.gallery-section {
+    padding: 75px 0;
+    background-color: #f4f4f4;
+}
+
+.location-section {
+    padding: 75px 0;
+    background-color: white;
+}
+
+.contact-section {
+    padding: 75px 0;
+    background-color: #f4f4f4;
+}
+
+.page-footer {
+    background-color: #111;
+    color: white;
+}
+
+.footer-container {
+    padding: 75px 0;
+}
+
+/* Other CSS */
+
+/* Cards */
+.card {
+    /*
+    background: none;
+    border: none;
+    border-radius: 0rem;
+    background-color: #f4f4f4;
+    */
+}
+
+/* li */
+
+.list-group-item {
+    background: none;
+}
+
+.list-group-item:last-child, .list-group-item:first-child {
+    border-radius: 0rem;
+}
+
+/* Navbar */
+.navbar-information {
+    color: white;
+    margin-bottom: 0;
+}
+
+.navbar-information-icon {
+    padding-right: 2px;
+    font-size: 1rem;
+}
+
+.navbar-information-item {
+    margin-left: 5px;
+    font-size: 0.8rem;
+}
+
+.nav-pills .nav-link {
+    border-radius: 0rem;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background-color: rgba(0,123,255,0.9)
+}
+
+/* Intro */
+#intro-image {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    padding: 0;
+}
+
+.intro-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.1rem;
+    color: white;
+    background-color: transparent;
+    padding: 25px 0;
+    max-width: 992px;
+}
+
+.rules-p {
+    margin-bottom: 0;
+}
+
+.img-thumbnail {
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    padding: 0;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 3.25rem;
+    }
+    
+    .intro-text {
+        font-size: 1rem;
+    }
+}
+
+.table td, .table th {
+    min-width: 10rem;
+    /*min-width: 12rem;*/
+}
+
+.table > tbody > tr:first-child > td {
+    border: none;
+}
+
+.lake-backgrounds {
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 20px;
+}
+
+a > i.fa-arrow-alt-circle-down{
+    color: white;
+    -o-transition: color .5s ease-in-out;
+    -ms-transition: color .5s ease-in-out;
+    -moz-transition: color .5s ease-in-out;
+    -webkit-transition: color .5s ease-in-out;
+    transition: .5s color ease-in-out;
+}
+
+a > i.fa-arrow-alt-circle-down:hover {
+    color: #077bff;
+    -o-transition: color .5s ease-in-out;
+    -ms-transition: color .5s ease-in-out;
+    -moz-transition: color .5s ease-in-out;
+    -webkit-transition: color .5s ease-in-out;
+    transition: .5s color ease-in-out;
+}
