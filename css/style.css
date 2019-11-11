@@ -1,7 +1,17 @@
 /* Removing Dotted Lines in Firefox */
 
 html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding 0px;
     font-family: 'Raleway', sans-serif;
+}
+
+.row {
+    padding-right: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
 }
 
 @media {
@@ -23,7 +33,6 @@ html, body {
         padding: 0;
         background-color: #111;
     }
-
 }
 
 @media (max-width: 1200px) {
@@ -59,47 +68,40 @@ html, body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Archivo', sans-serif;
-    font-weight: 700;
 }
 
 /* Page Title */
 h1 {
-    font-size: 4.5rem;
+    
 }
 
 /* Subtitles */
 h2 {
-    font-size: 2.25rem;
-    padding-bottom: 20px;
-    margin-bottom: 0;
+    
 }
 
-/* Intro Card Titles */
 h3 {
-    font-size: 1.3rem;
+
 }   
 
-/* Footer Titles */
 h4 {
-    font-size: 0.9rem;
+
 }
 
 h5 {
-    font-size: 0.7rem;
+
 }
 
-/* Portfolio Titles */
 h6 {
-    font-size: 0.9rem;
-    margin-bottom: 0;
+
 }
 
 .display-3 {
-    font-weight: 700;
+
 }
 
 p {
-    font-size: 0.9rem;
+
 }
 
 /* Sections CSS */
@@ -109,56 +111,67 @@ p {
     padding-top: 0;
 }
 
+.facilities-section {
+    padding: 50px 0;
+    background-color: white;
+}
+
+.rules-section {
+    padding: 50px 0;
+    background-color: #f4f4f4;
+}
+
+.timesprices-section {
+    padding: 50px 0;
+    background-color: white;
+}
+
 .bowsaw-section {
-    padding: 75px 0;
+    padding: 50px 0;
+    
+    /**
     background: url('../imgs/BowsawLake.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    **/
 }
 
 .billhook-section {
-    padding: 75px 0;
+    padding: 50px 0;
+    
+    /**
     background: url('../imgs/BillhookLake.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
-
-.rules-section {
-    padding: 75px 0;
-    background-color: #f4f4f4;
-}
-
-.facilities-section {
-    padding: 75px 0;
-    background-color: white;
+    **/
 }
 
 .calendar-section {
-    padding: 75px 0;
+    padding: 50px 0;
     background-color: #f4f4f4;
 }
 
 .results-section {
-    padding: 75px 0;
+    padding: 50px 0;
     background-color: white;
 }
 
 .gallery-section {
-    padding: 75px 0;
+    padding: 50px 0;
     background-color: #f4f4f4;
 }
 
 .location-section {
-    padding: 75px 0;
+    padding: 50px 0;
     background-color: white;
 }
 
 .contact-section {
-    padding: 75px 0;
+    padding: 50px 0;
     background-color: #f4f4f4;
 }
 
@@ -168,25 +181,23 @@ p {
 }
 
 .footer-container {
-    padding: 75px 0;
+    padding: 50px 0;
 }
 
 /* Other CSS */
 
 /* Cards */
 .card {
-    /*
     background: none;
     border: none;
     border-radius: 0rem;
-    background-color: #f4f4f4;
-    */
 }
 
 /* li */
 
 .list-group-item {
     background: none;
+    padding: 0.75rem 0rem;
 }
 
 .list-group-item:last-child, .list-group-item:first-child {
@@ -262,21 +273,19 @@ p {
     }
 }
 
+.table {
+    margin-bottom: 0;
+}
+
 .table td, .table th {
-    min-width: 10rem;
     /*min-width: 12rem;*/
 }
 
-.table > tbody > tr:first-child > td {
+.table > tbody > tr:first-child > td, .table > tbody > tr:first-child > th{
     border: none;
 }
 
-.lake-backgrounds {
-    background-color: rgba(0, 0, 0, 0.9);
-    padding: 20px;
-}
-
-a > i.fa-arrow-alt-circle-down{
+a > i.fa-arrow-circle-down{
     color: white;
     -o-transition: color .5s ease-in-out;
     -ms-transition: color .5s ease-in-out;
@@ -285,11 +294,25 @@ a > i.fa-arrow-alt-circle-down{
     transition: .5s color ease-in-out;
 }
 
-a > i.fa-arrow-alt-circle-down:hover {
-    color: #077bff;
+a > i.fa-arrow-circle-down:hover {
+    color: #212529;
     -o-transition: color .5s ease-in-out;
     -ms-transition: color .5s ease-in-out;
     -moz-transition: color .5s ease-in-out;
     -webkit-transition: color .5s ease-in-out;
     transition: .5s color ease-in-out;
+}
+
+#results-list {
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+.results-list-group-item {
+    border: none;
+    padding-top: 0px;
+}
+
+.fa-trophy {
+    color: goldenrod;
 }
